@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style_lab3.css" type="text/css">
+        <title>HTML Lanjutan</title>
+        <style>
+            h1{
+            font-size: 24px;
+            color: #000000;
+            text-align: center;
+            padding: 20px 10px;
+            }
+        </style>
+    </head>
+<body>
+    <!-- Dropdown Menu -->
+    <header class="header">
+        <div class="menu-web">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li class="dropdown"><a href="#">Blog</a>
+                    <ul class="isi-dropdown">
+                        <li><a href="#">Website</a></li>
+                        <li><a href="#">Artikel Bebas</a></li>
+                    </ul>
+
+                <li class="dropdown"><a href="#">Tentang Kami</a>
+                    <ul class="isi-dropdown">
+                        <li><a href="#">Alamat</a></li>
+                        <li><a href="#">Kontak</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <h1> Praktikum 3 Pemrograman Web </br> Dropdown Menu dan Listbox </h1>
+    <div id="isi">
+        <p><b>Menu List Multi</b></p>
+    </br>List Praktikum:
+        <!-- Listbox Multiple Selection -->
+        <select name="ddl" size="4" multiple>
+            <option value="html">HTML Dasar</option>
+            <option value="css">CSS Dasar</option>
+            <option value="list">Membuat List, Tabel, dan Form</option>
+        </select>
+    </div>
+</body>
+</html>
